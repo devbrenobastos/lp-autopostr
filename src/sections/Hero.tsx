@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Rocket } from 'lucide-react';
+import dashboardImage from '../assets/dashboard-autopostr.png';
 
 export const Hero = () => {
     return (
@@ -51,7 +52,7 @@ export const Hero = () => {
                     <div className="glass-card p-2 md:p-3 max-w-5xl mx-auto overflow-hidden border-zinc-800 shadow-2xl relative select-none">
 
                         <img
-                            src="/src/assets/dashboard-autopostr.png"
+                            src={dashboardImage}
                             alt="AutoPostr Dashboard"
                             className="w-full h-auto rounded-xl shadow-2xl pointer-events-none"
                             onContextMenu={(e) => e.preventDefault()}
